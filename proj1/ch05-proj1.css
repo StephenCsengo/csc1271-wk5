@@ -1,0 +1,126 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+ background-color: #ECEFF1;    
+}
+
+section {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   border: solid 1pt black;
+    padding-bottom: 1rem;
+}
+section h3 {
+  color: white;
+  padding: 0.75rem;
+  background-color: #263238; 
+  margin-top: 0;
+}
+
+.status {
+    border-radius: 0.25rem;
+    padding: 3px;
+    color: white;
+    
+}
+.status-processing {
+    background-color:    #E65100;    
+}
+.status-shipped {
+    background-color:   #4CAF50;    
+}
+.status-pending {
+    background-color:    #03A9F4;    
+}
+
+
+/* table formatting -- you will add these */
+caption, #form legend {
+    background: #607d8b;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+
+#form legend {
+    width: 95%;
+}
+
+table {
+    width: 95%;
+    border: none;
+    margin: auto;
+}
+
+th {
+    font-size: 1.25rem;
+}
+
+td {
+    border: none;
+    padding: 1rem;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: solid 1px #a5a5a5;
+    background: #fff;
+}
+
+progress[value]::-webkit-progress-bar {
+    background: #fff;
+}
+
+progress[value]::-webkit-progress-value {
+    background: #607d8b;
+}
+
+progress[value]::-moz-progress-bar {
+    background: #fff;
+}
+
+progress[value]::-moz-progress-value {
+    background: #607d8b;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+select {
+    padding: 0.5rem;
+}
+
+form {
+    width: 95%;
+    margin: auto;
+}
+
+.title {
+    margin-bottom: 0.75rem;
+}
+
+.button {
+    display: block;
+    background: #540754;
+    color: white;
+    border: solid 1px #380138;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #380138;
+}
